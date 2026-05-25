@@ -129,9 +129,10 @@ th{
     color: #5f564d;
     line-height: 150%;
 }
+
 td{
 padding-left: 16px;
-font-weight: 700px;
+font-weight: 700;
 color: #854632;
 line-height: 150%;
 
@@ -143,13 +144,11 @@ tr + tr td{
     padding-block: 12px;
 }
 
-tr :nth-of-type>
-    Especificação do Seletor: ( 0, 1, 1)
+    tr:nth-of-type(1) th
     tr:nth-of-type(1) td{
         padding-bottom: 12px;
     }
     tr:nth-of-type(4) th,
-    tr:nth-of-type(4)td{
-        border:none;
+    tr:nth-of-type(4) td {
+    border: none;
     }
-}
